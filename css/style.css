@@ -1,0 +1,25 @@
+@media screen and (min-width: 980px) {
+
+  body {
+    background-image: url("../img/background.png");
+  }
+
+  .container:first-child {
+    background-image: url("../img/header.png");
+    background-position: top;
+    background-repeat: repeat-x;
+  }
+
+  h1.page-header, h1.page-header small {
+    color: white;
+    border-style: none;
+  }
+
+  .container {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    box-shadow: 0 0 10px 10px;
+    background-color: white;
+  }
+
+}
