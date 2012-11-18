@@ -23,3 +23,16 @@
   }
 
 }
+
+.page-language {
+  margin: 1em;
+  text-align: center;
+}
+
+@media print {
+
+  .page-language {
+    display: none;
+  }
+
+}
