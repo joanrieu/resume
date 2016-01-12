@@ -1,0 +1,199 @@
+@import 'bower_components/normalize.css/normalize.css';
+@import 'bgpattern';
+
+$colors: #E6781E, #1693A7, #CC0C39, #C8CF02, #7FAF1B;
+
+$breakpoint: 600pt;
+
+@mixin large {
+    @media print, (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+@page {
+    margin: 0;
+}
+
+article {
+    color: lighten(black, 25%);
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 95%;
+    margin: 0 auto;
+    padding: 2em;
+    
+    @media not print {
+        max-width: 600pt;
+    }
+    
+    @media print {
+        zoom: .75;
+    }
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    div {
+        text-align: center;
+        flex-basis: 100%;
+        
+        @include large {
+            flex: 2;
+            order: 2;
+        }
+        
+        h1 {
+            font-size: 4em;
+            font-weight: 300;
+            line-height: 1;
+            margin: 0 .2em;
+        }
+        
+        p {
+            color: nth($colors, 1);
+            font-size: 1.2em;
+        }
+    }
+    
+    > p {
+        font-weight: 300;
+        margin: 0;
+        text-align: center;
+        
+        @include large {
+            flex: 1;
+        }
+        
+        &:first-of-type {
+            order: 1;
+            
+            a {
+                color: inherit;
+                font-weight: inherit;
+                text-decoration: inherit;
+            }
+            
+            @include large {
+                text-align: left;
+            }
+        }
+        
+        &:last-of-type {
+            order: 3;
+            
+            @include large {
+                text-align: right;
+            }
+        }
+    }
+}
+
+h2 {
+    border-bottom: 1pt solid nth($colors, 2);
+    color: nth($colors, 2);
+    font-weight: 300;
+    padding-bottom: .2em;
+    
+    &:before {
+        content: '§';
+        float: right;
+    }
+}
+
+h3 {
+    color: nth($colors, 3);
+    font-weight: 400;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    div {
+        flex-grow: 1;
+        flex-basis: 50%;
+        min-width: $breakpoint / 3;
+    }
+    
+    li:last-of-type {
+        border-left: 1pt solid nth($colors, 3);
+        font-weight: 300;
+        list-style-type: none;
+        margin-left: -1em;
+        margin-top: .5em;
+        padding-left: 1em;
+    }
+}
+
+.technologies {
+    dt {
+        color: nth($colors, 1);
+        float: left;
+        font-weight: 400;
+        text-align: right;
+        transform: rotateZ(-10deg);
+        transform-origin: right;
+        width: 4em;
+    }
+    
+    dd {
+        font-weight: 300;
+        margin-bottom: .5em;
+        margin-left: 4.5em;
+    }
+    
+    i {
+        color: nth($colors, 3);
+    }
+}
+
+@include large {
+    .bottom {
+        display: flex;
+        
+        div {
+            &:first-of-type {
+                flex: 1;
+                padding-right: 2em;
+            }
+            
+            &:last-of-type ul {
+                padding-right: 2em;
+            }
+        }
+    }
+}
+
+ul {
+    list-style-type: square;
+    margin: 0;
+    
+    li > span {
+        font-size: .85em;
+        font-weight: 300;
+        margin-bottom: .5em;
+    }
+}
+
+a {
+    color: nth($colors, 4);
+    font-weight: bold;
+    text-decoration: inherit;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.caps {
+    font-variant: small-caps;
+}
