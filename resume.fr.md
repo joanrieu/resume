@@ -46,8 +46,7 @@ Web
 ### Amélioration de processus industriels
 
 -   Reconstruction d'une application mobile
--   Mise en oeuvre de technologies web
--   Etat de l'art des derniers frameworks
+-   Mise en oeuvre de technologies web récentes
 -   Synchronisation de données utilisées hors-ligne
 -   Stage de 3 mois à [Juliand Digital][]  
     ─ Manchester, 2015
@@ -61,7 +60,6 @@ Web
 -   Mise en place d'un SGBD Couchbase répliqué
 -   Conception du système et création de l'app
 -   Intégration d'une fonction de scan de QR Code
--   Travail en milieu Confidentiel Défense
 -   Stage de 2 mois à l'[ANSSI][] (Agence Nationale de la Sécurité des Systèmes d'Information)  
     ─ Paris, 2014
 
