@@ -43,6 +43,18 @@ Web
 
 <div markdown="1">
 
+### Holonomic robot with LiDAR ###
+
+-   MCU programming for odometry and PID control
+-   Low-level performance fine-tuning
+-   Simultaneous Localization and Mapping
+-   4-month academic project with [Rhoban / LaBRI][] (laboratory)  
+    ─ Bordeaux, 2015
+
+</div>
+
+<div markdown="1">
+
 ### Business intelligence mobile web app ###
 
 -   Rearchitect an offline-first web app
@@ -63,18 +75,6 @@ Web
 -   2-month internship at [ANSSI][]  
     (French National IT Security Agency)  
     ─ Paris, 2014
-
-</div>
-
-<div markdown="1">
-
-### Commercial website ###
-
--   Analysis of multiple frameworks and CMS
--   Work with designers and salespersons
--   Code and integration of map libraries
--   Freelance work with [AEI][] (Junior Association)  
-    ─ Bordeaux, 2014
 
 </div>
 
@@ -107,7 +107,8 @@ Web
 Education
 ---------
 
--   Studying **Software Engineering** at [ENSEIRB-MATMECA][] ─ 2013 to 2016  
+-   Finishing a **Master's Degree** in **Software Engineering** and **Robotics** at [ENSEIRB-MATMECA][] ─ 
+2013 to 2016  
     **Bachelor's degree** in Engineering Sciences specialised in Computer Science ─ 2014  
     <span> This school is a _Grande École_, a prestigious selective higher-education institution, in the [Bordeaux Institute of Technology][] </span>
 -   Studies in **Mathematics and Natural Sciences** ─ 2011 to 2013  
@@ -176,5 +177,6 @@ Languages
 [Global Game Jam]:                      //globalgamejam.org
 [IDSC Group]:                           //www.idsc-group.com
 [Juliand Digital]:                      //juliand.co.uk
+[Rhoban / LaBRI]:                       //rhoban.com/people-contact/
 [Ludum Dare]:                           //ludumdare.com/compo
 [portfolio]:                            ./portfolio
