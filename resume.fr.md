@@ -43,6 +43,18 @@ Web
 
 <div markdown="1">
 
+### Robot holonome avec LiDAR ###
+
+-   Prog. AVR pour odométrie et contrôle PID
+-   Optimisation de performance bas-niveau
+-   Cartographie et localisation simultanées
+-   Projet académique de 4 mois avec [Rhoban / LaBRI][] (laboratoire)  
+    ─ Bordeaux, 2015
+
+</div>
+
+<div markdown="1">
+
 ### Amélioration de processus industriels
 
 -   Reconstruction d'une application mobile
@@ -62,18 +74,6 @@ Web
 -   Intégration d'une fonction de scan de QR Code
 -   Stage de 2 mois à l'[ANSSI][] (Agence Nationale de la Sécurité des Systèmes d'Information)  
     ─ Paris, 2014
-
-</div>
-
-<div markdown="1">
-
-### Site web commercial ###
-
--   Comparaison de différents frameworks et CMS
--   Travail avec des designers et des commerciaux
--   Écriture du code et intégration de cartographies
--   Travail en freelance avec [AEI][] (Junior-Entreprise)  
-    ─ Bordeaux, 2014
 
 </div>
 
@@ -175,3 +175,4 @@ Langues
 [Juliand Digital]:                      juliand.co.uk
 [Ludum Dare]:                           ludumdare.com/compo
 [portfolio]:                            ./portfolio
+[Rhoban / LaBRI]:                       //rhoban.com/fr/people-contact/
