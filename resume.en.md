@@ -135,7 +135,7 @@ Management
 :   Team member for the setting up of the [Game Creation Club][]'s annual conference with companies such as Ubisoft
 
 Teaching
-:   Introductory game development classes for the [Game Creation Club][] from 2013 to 2015
+:   Introductory game development classes for the [Game Creation Club][] from 2013 to 2015 and for [Cap Sciences][] from 2015 to 2016
 
 Communication
 :   Facilitator for a video game exhibition at the [Cap Sciences][] cultural center in Bordeaux

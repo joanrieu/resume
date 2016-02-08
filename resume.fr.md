@@ -131,7 +131,7 @@ Management
 :   Co-organisation de la conférence annuelle du [Game Creation Club][] avec des entreprises comme Ubisoft
 
 Pédagogie
-:   Encadrement d'ateliers d'initiation à la création de jeux vidéo pour le [Game Creation Club][] de 2013 à 2015
+:   Encadrement d'ateliers d'initiation à la création de jeux vidéo pour le [Game Creation Club][] de 2013 à 2015 et pour [Cap Sciences][] de 2015 à 2016
 
 Communication
 :   Travail en tant que médiateur scientifique et animateur grand public au centre culturel [Cap Sciences][] (Bordeaux)
