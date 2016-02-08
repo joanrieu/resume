@@ -10,9 +10,9 @@ Software Engineering Student
 </div>
 
 Mr. Joan Rieu  
-Apt 16 Rés Les Lauréats  
-340 Cours de la Libération  
-33400 Talence  
+Apt 113 Rés Tournebride  
+2 Avenue de Noès  
+33600 Pessac  
 <span class="caps">France</span>
 
 [joanrieu.com](//joanrieu.com/)  

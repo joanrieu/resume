@@ -10,9 +10,9 @@ Joan Rieu
 </div>
 
 M. Joan <span class="caps">Rieu</span>  
-Apt 16 Rés Les Lauréats  
-340 Cours de la Libération  
-33400 Talence  
+Apt 113 Rés Tournebride  
+2 Avenue de Noès  
+33600 Pessac  
 <span class="caps">France</span>
 
 [joanrieu.fr](//joanrieu.fr/)  
