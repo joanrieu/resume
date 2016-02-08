@@ -106,9 +106,8 @@ Web
 Formation
 ---------
 
--   **École d'Ingénieurs en Informatique** [ENSEIRB-MATMECA][] ([Bordeaux INP][]) ─ 2013 à 2016  
-    **Bachelor** en Sciences de l'Ingénieur spécialité Informatique ─ 2014
--   **Classe Préparatoire aux Grandes Écoles** Prépa des INP ─ 2011 à 2013
+-   **École d'Ingénieurs** en _Informatique_ avec spécialité _Robotique_ ─ [ENSEIRB-MATMECA][] ─ 2013 à 2016
+-   **Classe Préparatoire aux Grandes Écoles** ─ Prépa des INP ─ 2011 à 2013
 -   Double diplôme **AbiBac** franco-allemand ─ 2011  
     <span> _Baccalauréat_ scientifique mention bien et _allgemeine Hochschulreife_ allemand  
     Stage en entreprise à Francfort (<span class="caps">Allemagne</span>) </span>
