@@ -39,7 +39,7 @@ Technical experience
 - x86 Asm
 - LLVM
 - Java
-- ANTLR…
+- ANTLR
 
 </div>
 
@@ -49,7 +49,7 @@ Technical experience
 
 - Android
 - Phonegap
-- Couchbase Lite…
+- Couchbase Lite
 
 </div>
 
@@ -66,7 +66,7 @@ Technical experience
 - Flux
 - RxJS
 - Node.js
-- PHP…
+- PHP
 
 </div>
 

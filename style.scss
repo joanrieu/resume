@@ -164,6 +164,10 @@ h3 {
             color: nth($colors, 3);
             content: " ⋆";
         }
+        
+        &:last-child::after {
+            content: "…";
+        }
     }
 }
 
