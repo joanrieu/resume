@@ -97,7 +97,7 @@ Web
 -   An app to optimize one's schedule
 -   Design, production and publication of the app
 -   Creation of the graphics
--   Personal [project][portfolio]  
+-   Personal [project][Automatic Alarm]  
     ─ 2013
 
 </div>
@@ -129,24 +129,28 @@ Education
 Skills & assets
 ---------------
 
-Involvement
-:   Many personal programming [projects][portfolio] since a teenager
-
-Leadership
-:   _Lead Student Representative_ of the [Bordeaux Institute of Technology][]
-:   Head of the [Game Creation Club][] at [ENSEIRB-MATMECA][] from 2014 to 2015
-
-Management
-:   Team member for the setting up of the [Game Creation Club][]'s annual conference with companies such as Ubisoft
-
-Teaching
-:   Introductory game development classes for the [Game Creation Club][] from 2013 to 2015 and for [Cap Sciences][] from 2015 to 2016
-
-Communication
-:   Facilitator for a video game exhibition at the [Cap Sciences][] cultural center in Bordeaux
-
-Creativity
-:   Numerous 48h game creation contests such as the [Global Game Jam][] and [Ludum Dare][]
+- Involvement  
+  <small>
+  Programmer since a teenager with many personal software projects  
+  </small>
+- Leadership  
+  <small>
+  Student Vice President of the Bordeaux Institute of Technology  
+  President of the Game Creation Club at ENSEIRB-MATMECA  
+  </small>
+- Management  
+  <small>
+  Co-organizer of an annual conference with companies such as Ubisoft  
+  </small>
+- Communication  
+  <small>
+  Teacher for the Game Creation Club's introductory classes  
+  Facilitator at the Cap Sciences cultural center  
+  </small>
+- Creativity  
+  <small>
+  Regular participant in hackathons and limited time creative contests  
+  </small>
 
 </div>
 
@@ -175,13 +179,8 @@ Languages
 
 [AEI]:                                  //www.junior-aei.com
 [ANSSI]:                                //www.ssi.gouv.fr
-[Bordeaux Institute of Technology]:     //www.bordeaux-inp.fr/en
-[Cap Sciences]:                         //www.cap-sciences.net
 [ENSEIRB-MATMECA]:                      //enseirb-matmeca.bordeaux-inp.fr/en
-[Game Creation Club]:                   //gcc.eirb.fr
-[Global Game Jam]:                      //globalgamejam.org
 [IDSC Group]:                           //www.idsc-group.com
 [Juliand Digital]:                      //juliand.co.uk
 [Rhoban / LaBRI]:                       //rhoban.com/people-contact/
-[Ludum Dare]:                           //ludumdare.com/compo
-[portfolio]:                            ./portfolio
+[Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
