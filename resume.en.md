@@ -45,11 +45,11 @@ Web
 
 ### Holonomic robot with LiDAR ###
 
--   MCU programming for odometry and PID control
--   Low-level performance fine-tuning
--   Simultaneous Localization and Mapping
--   4-month academic project with [Rhoban / LaBRI][] (laboratory)  
-    ─ Bordeaux, 2015
+- MCU programming for odometry and PID control
+- Low-level performance fine-tuning
+- Simultaneous Localization and Mapping
+- 4-month academic project with [Rhoban / LaBRI][] (laboratory)  
+  ─ Bordeaux, 2015
 
 </div>
 
@@ -57,11 +57,11 @@ Web
 
 ### Business intelligence mobile web app ###
 
--   Rearchitect an offline-first web app
--   Refactor existing code into modular components
--   Implement a reactive user interface
--   4-month internship at [Juliand Digital][] (startup)  
-    ─ Manchester, 2015
+- Rearchitect an offline-first web app
+- Refactor existing code into modular components
+- Implement a reactive user interface
+- 4-month internship at [Juliand Digital][] (startup)  
+  ─ Manchester, 2015
 
 </div>
 
@@ -69,12 +69,11 @@ Web
 
 ### Hardware tracking app for Android ###
 
--   Setting up a replicated Couchbase database
--   Design of the system and creation of the app
--   Integration of QR Code scan functionality
--   2-month internship at [ANSSI][]  
-    (French National IT Security Agency)  
-    ─ Paris, 2014
+- Setting up a replicated Couchbase database
+- Design of the system and creation of the app
+- Integration of QR Code scan functionality
+- 2-month internship at [ANSSI][] (French National IT Security Agency)  
+  ─ Paris, 2014
 
 </div>
 
@@ -82,11 +81,11 @@ Web
 
 ### Video games for Android ###
 
--   Creation of a common base app for quiz games
--   Architecture and writing of the code
--   Application of that system to four games
--   2-month internship at [IDSC Group][] (startup)  
-    ─ Bordeaux, 2013
+- Creation of a common base app for quiz games
+- Architecture and writing of the code
+- Application of that system to four games
+- 2-month internship at [IDSC Group][] (startup)  
+  ─ Bordeaux, 2013
 
 </div>
 
@@ -94,11 +93,11 @@ Web
 
 ### Calendar-based alarm app for Android ###
 
--   An app to optimize one's schedule
--   Design, production and publication of the app
--   Creation of the graphics
--   Personal [project][Automatic Alarm]  
-    ─ 2013
+- An app to optimize one's schedule
+- Design, production and publication of the app
+- Creation of the graphics
+- Personal [project][Automatic Alarm]  
+  ─ 2013
 
 </div>
 
@@ -109,16 +108,16 @@ Web
 Education
 ---------
 
--   <span>2013 to 2016</span>
-    Finishing a **Master's Degree** in **Software Engineering** and **Robotics** ─ [ENSEIRB-MATMECA][]  
-    <small> This school is a _Grande École_, a prestigious selective higher-education institution </small>
--   <span>2011 to 2013</span>
-    Studies in **Mathematics and Natural Sciences** ─ Prépa des INP  
-    <small> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </small>
--   <span>2011</span>
-    French & German high school **double diploma**  
-    <small> French _baccalauréat_ with honors and German _allgemeine Hochschulreife_  
-    Internship in Frankfurt (<span class="caps">Germany</span>) </small>
+- <span>2013 to 2016</span>
+  Finishing a **Master's Degree** in **Software Engineering** and **Robotics** ─ [ENSEIRB-MATMECA][]  
+  <small> This school is a _Grande École_, a prestigious selective higher-education institution </small>
+- <span>2011 to 2013</span>
+  Studies in **Mathematics and Natural Sciences** ─ Prépa des INP  
+  <small> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </small>
+- <span>2011</span>
+  French & German high school **double diploma**  
+  <small> French _baccalauréat_ with honors and German _allgemeine Hochschulreife_  
+  Internship in Frankfurt (<span class="caps">Germany</span>) </small>
 
 </div>
 
@@ -159,19 +158,19 @@ Skills & assets
 Languages
 ---------
 
--   French  
-    <small> Mother tongue </small>
--   English  
-    <small> IELTS 8.5  
-    Technical English</small>
--   German  
-    <small> European C1 certificate</small>
--   Italian  
-    <small> Intermediate </small> 
--   Russian  
-    <small> Lower intermediate </small> 
--   Portuguese  
-    <small> Lower intermediate </small> 
+- French  
+  <small> Mother tongue </small>
+- English  
+  <small> IELTS 8.5  
+  Technical English </small>
+- German  
+  <small> European C1 certificate </small>
+- Italian  
+  <small> Intermediate </small>
+- Russian  
+  <small> Lower intermediate </small>
+- Portuguese  
+  <small> Lower intermediate </small>
 
 </div>
 
