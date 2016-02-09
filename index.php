@@ -54,8 +54,6 @@ $CONTENT = \Michelf\MarkdownExtra::defaultTransform(file_get_contents("resume.$L
         </script>
     </head>
     <body>
-        <article>
-            <?php echo $CONTENT; ?>
-        </article>
+        <?php echo $CONTENT; ?>
     </body>
 </html>
