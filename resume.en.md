@@ -30,14 +30,45 @@ Technical experience
 
 ### Technologies ###
 
-System
-: C++&nbsp;<i>⋆</i> C&nbsp;<i>⋆</i> x86 Asm&nbsp;<i>⋆</i> LLVM&nbsp;<i>⋆</i> Java&nbsp;<i>⋆</i> ANTLR…
+<div markdown="1">
 
-Mobile
-: Android&nbsp;<i>⋆</i> Phonegap&nbsp;<i>⋆</i> Couchbase Lite…
+#### System ####
 
-Web
-: HTML&nbsp;<i>⋆</i> CSS&nbsp;<i>⋆</i> SASS&nbsp;<i>⋆</i> Bootstrap&nbsp;<i>⋆</i> Javascript&nbsp;<i>⋆</i> React&nbsp;<i>⋆</i> Flux&nbsp;<i>⋆</i> RxJS&nbsp;<i>⋆</i> Node.js&nbsp;<i>⋆</i> PHP…
+- C++
+- C
+- x86 Asm
+- LLVM
+- Java
+- ANTLR…
+
+</div>
+
+<div markdown="1">
+
+#### Mobile ####
+
+- Android
+- Phonegap
+- Couchbase Lite…
+
+</div>
+
+<div markdown="1">
+
+#### Web ####
+
+- HTML
+- CSS
+- SASS
+- Bootstrap
+- Javascript
+- React
+- Flux
+- RxJS
+- Node.js
+- PHP…
+
+</div>
 
 </div>
 
