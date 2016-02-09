@@ -109,10 +109,10 @@ Web
 Education
 ---------
 
--   <span>2013 à 2016</span>
+-   <span>2013 to 2016</span>
     Finishing a **Master's Degree** in **Software Engineering** and **Robotics** ─ [ENSEIRB-MATMECA][]
     <small> This school is a _Grande École_, a prestigious selective higher-education institution </small>
--   <span>2011 à 2013</span>
+-   <span>2011 to 2013</span>
     Studies in **Mathematics and Natural Sciences** ─ Prépa des INP  
     <small> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </small>
 -   <span>2011</span>
