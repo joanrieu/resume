@@ -45,11 +45,11 @@ Web
 
 ### Robot holonome avec LiDAR ###
 
--   Prog. AVR pour odométrie et contrôle PID
--   Optimisation de performance bas-niveau
--   Cartographie et localisation simultanées
--   Projet académique de 4 mois avec [Rhoban / LaBRI][] (laboratoire)  
-    ─ Bordeaux, 2015
+- Prog. AVR pour odométrie et contrôle PID
+- Optimisation de performance bas-niveau
+- Cartographie et localisation simultanées
+- Projet académique de 4 mois avec [Rhoban / LaBRI][] (laboratoire)  
+  ─ Bordeaux, 2015
 
 </div>
 
@@ -57,11 +57,11 @@ Web
 
 ### Amélioration de processus industriels
 
--   Reconstruction d'une application mobile
--   Mise en oeuvre de technologies web récentes
--   Synchronisation de données utilisées hors-ligne
--   Stage de 3 mois à [Juliand Digital][]  
-    ─ Manchester, 2015
+- Reconstruction d'une application mobile
+- Mise en oeuvre de technologies web récentes
+- Synchronisation de données utilisées hors-ligne
+- Stage de 3 mois à [Juliand Digital][]  
+  ─ Manchester, 2015
 
 </div>
 
@@ -69,11 +69,11 @@ Web
 
 ### Suivi de matériel informatique pour Android ###
 
--   Mise en place d'un SGBD Couchbase répliqué
--   Conception du système et création de l'app
--   Intégration d'une fonction de scan de QR Code
--   Stage de 2 mois à l'[ANSSI][] (Agence Nationale de la Sécurité des Systèmes d'Information)  
-    ─ Paris, 2014
+- Mise en place d'un SGBD Couchbase répliqué
+- Conception du système et création de l'app
+- Intégration d'une fonction de scan de QR Code
+- Stage de 2 mois à l'[ANSSI][] (Agence Nationale de la Sécurité des Systèmes d'Information)  
+  ─ Paris, 2014
 
 </div>
 
@@ -81,11 +81,11 @@ Web
 
 ### Jeux vidéo pour Android ###
 
--   Création d'une application quiz réutilisable
--   Conception de l'architecture et écriture du code
--   Utilisation de ce système pour quatre jeux
--   Stage de 2 mois chez [IDSC Group][] (startup)  
-    ─ Bordeaux, 2013
+- Création d'une application quiz réutilisable
+- Conception de l'architecture et écriture du code
+- Utilisation de ce système pour quatre jeux
+- Stage de 2 mois chez [IDSC Group][] (startup)  
+  ─ Bordeaux, 2013
 
 </div>
 
@@ -93,11 +93,11 @@ Web
 
 ### Alarme basée sur le calendrier pour Android ###
 
--   Constat d'un besoin résoluble par une app
--   Conception, production et publication de l'app
--   Design des ressources graphiques
--   [Projet personnel][portfolio]  
-    ─ 2013
+- Constat d'un besoin résoluble par une app
+- Conception, production et publication de l'app
+- Design des ressources graphiques
+- [Projet personnel][Automatic Alarm]  
+  ─ 2013
 
 </div>
 
@@ -108,14 +108,14 @@ Web
 Formation
 ---------
 
--   <span>2013 à 2016</span>
-    **École d'Ingénieurs** en _Informatique_ avec spécialité _Robotique_ ─ [ENSEIRB-MATMECA][]
--   <span>2011 à 2013</span>
-    **Classe Préparatoire aux Grandes Écoles** ─ Prépa des INP
--   <span>2011</span>
-    Double diplôme **AbiBac** franco-allemand  
-    <small> _Baccalauréat_ scientifique mention bien et _allgemeine Hochschulreife_ allemand  
-    Stage en entreprise à Francfort (<span class="caps">Allemagne</span>) </small>
+- <span> 2013 à 2016 </span>
+  **École d'Ingénieurs** en _Informatique_ avec spécialité _Robotique_ ─ [ENSEIRB-MATMECA][]
+- <span> 2011 à 2013 </span>
+  **Classe Préparatoire aux Grandes Écoles** ─ Prépa des INP
+- <span> 2011 </span>
+  Double diplôme **AbiBac** franco-allemand  
+  <small> _Baccalauréat_ scientifique mention bien et _allgemeine Hochschulreife_ allemand  
+  Stage en entreprise à Francfort (<span class="caps">Allemagne</span>) </small>
 
 </div>
 
@@ -126,24 +126,18 @@ Formation
 Compétences & atouts
 --------------------
 
-Investissement
-:   Nombreux [projets personnels][portfolio] de programmation depuis l'adolescence
-
-Leadership
-:   _Vice-Président Élève-Ingénieur_ du Conseil des Études de [Bordeaux INP][]
-:   Président du [Game Creation Club][] de l'[ENSEIRB-MATMECA][] de 2014 à 2015
-
-Management
-:   Co-organisation de la conférence annuelle du [Game Creation Club][] avec des entreprises comme Ubisoft
-
-Pédagogie
-:   Encadrement d'ateliers d'initiation à la création de jeux vidéo pour le [Game Creation Club][] de 2013 à 2015 et pour [Cap Sciences][] de 2015 à 2016
-
-Communication
-:   Travail en tant que médiateur scientifique et animateur grand public au centre culturel [Cap Sciences][] (Bordeaux)
-
-Créativité
-:   Participation à de nombreux concours de programmation tels que la [Global Game Jam][] et [Ludum Dare][] depuis 2010
+- Investissement  
+  <small> Programmeur depuis l'adolescence avec de nombreux projets de logiciels </small>
+- Leadership  
+  <small> Vice-Président Élève-Ingénieur de l'Institut Polytechnique de Bordeaux  
+  Président du Game Creation Club de l'ENSEIRB-MATMECA </small>
+- Management  
+  <small> Co-organisateur d'une conférence annuelle avec des entreprises comme Ubisoft </small>
+- Communication  
+  <small> Enseignant aux ateliers d'initiation du Game Creation Club  
+  Médiateur scientifique au centre culturel Cap Sciences </small>
+- Créativité  
+  <small> Participant régulier à des hackathons et à des concours créatifs en temps limité </small>
 
 </div>
 
@@ -170,15 +164,10 @@ Langues
 
 </div>
 
-[AEI]:                                  www.junior-aei.com
-[ANSSI]:                                www.ssi.gouv.fr
-[Bordeaux INP]:                         www.bordeaux-inp.fr
-[Cap Sciences]:                         www.cap-sciences.net
-[ENSEIRB-MATMECA]:                      enseirb-matmeca.bordeaux-inp.fr
-[Game Creation Club]:                   gcc.eirb.fr
-[Global Game Jam]:                      globalgamejam.org
-[IDSC Group]:                           www.idsc-group.com
-[Juliand Digital]:                      juliand.co.uk
-[Ludum Dare]:                           ludumdare.com/compo
-[portfolio]:                            ./portfolio
+[AEI]:                                  //www.junior-aei.com
+[ANSSI]:                                //www.ssi.gouv.fr
+[Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
+[ENSEIRB-MATMECA]:                      //enseirb-matmeca.bordeaux-inp.fr
+[IDSC Group]:                           //www.idsc-group.com
+[Juliand Digital]:                      //juliand.co.uk
 [Rhoban / LaBRI]:                       //rhoban.com/fr/people-contact/

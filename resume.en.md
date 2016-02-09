@@ -108,13 +108,13 @@ Web
 Education
 ---------
 
-- <span>2013 to 2016</span>
+- <span> 2013 to 2016 </span>
   Finishing a **Master's Degree** in **Software Engineering** and **Robotics** ─ [ENSEIRB-MATMECA][]  
   <small> This school is a _Grande École_, a prestigious selective higher-education institution </small>
-- <span>2011 to 2013</span>
+- <span> 2011 to 2013 </span>
   Studies in **Mathematics and Natural Sciences** ─ Prépa des INP  
   <small> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </small>
-- <span>2011</span>
+- <span> 2011 </span>
   French & German high school **double diploma**  
   <small> French _baccalauréat_ with honors and German _allgemeine Hochschulreife_  
   Internship in Frankfurt (<span class="caps">Germany</span>) </small>
@@ -129,27 +129,17 @@ Skills & assets
 ---------------
 
 - Involvement  
-  <small>
-  Programmer since a teenager with many personal software projects  
-  </small>
+  <small> Programmer since a teenager with many personal software projects </small>
 - Leadership  
-  <small>
-  Student Vice President of the Bordeaux Institute of Technology  
-  President of the Game Creation Club at ENSEIRB-MATMECA  
-  </small>
+  <small> Student Vice President of the Bordeaux Institute of Technology  
+  President of the Game Creation Club at ENSEIRB-MATMECA </small>
 - Management  
-  <small>
-  Co-organizer of an annual conference with companies such as Ubisoft  
-  </small>
+  <small> Co-organizer of an annual conference with companies such as Ubisoft </small>
 - Communication  
-  <small>
-  Teacher for the Game Creation Club's introductory classes  
-  Facilitator at the Cap Sciences cultural center  
-  </small>
+  <small> Teacher for the Game Creation Club's introductory classes  
+  Facilitator at the Cap Sciences cultural center </small>
 - Creativity  
-  <small>
-  Regular participant in hackathons and limited time creative contests  
-  </small>
+  <small> Regular participant in hackathons and limited time creative contests </small>
 
 </div>
 
@@ -178,8 +168,8 @@ Languages
 
 [AEI]:                                  //www.junior-aei.com
 [ANSSI]:                                //www.ssi.gouv.fr
+[Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
 [ENSEIRB-MATMECA]:                      //enseirb-matmeca.bordeaux-inp.fr/en
 [IDSC Group]:                           //www.idsc-group.com
 [Juliand Digital]:                      //juliand.co.uk
 [Rhoban / LaBRI]:                       //rhoban.com/people-contact/
-[Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
