@@ -12,6 +12,9 @@ $GA = [
     '.com' => 'UA-36408133-2'
 ][$EXT];
 
+require 'bower_components/php-markdown/Michelf/MarkdownExtra.inc.php';
+$CONTENT = \Michelf\MarkdownExtra::defaultTransform(file_get_contents("resume.$LANG.md"));
+
 ?><!doctype html>
 <html lang="<?php echo $LANG; ?>">
     <head>
@@ -31,15 +34,28 @@ $GA = [
             ga('create', '<?php echo $GA; ?>', 'auto');
             ga('send', 'pageview');
         </script>
+        <script type="application/ld+json">
+            {
+                "@context" : "http://schema.org",
+                "@type" : "Person",
+                "name" : "Joan Rieu",
+                "givenName": "Joan",
+                "familyName": "Rieu",
+                "url" : "http://joanrieu.com",
+                "sameAs" : [
+                    "http://joanrieu.fr",
+                    "https://www.linkedin.com/in/joanrieu",
+                    "https://github.com/joanrieu",
+                    "https://twitter.com/joanrieu",
+                    "https://plus.google.com/+JoanRieu",
+                    "https://www.facebook.com/jrieu"
+                ]
+            }
+        </script>
     </head>
     <body>
         <article>
-<?php
-
-require 'bower_components/php-markdown/Michelf/MarkdownExtra.inc.php';
-echo \Michelf\MarkdownExtra::defaultTransform(file_get_contents("resume.$LANG.md"));
-
-?>
+            <?php echo $CONTENT; ?>
         </article>
     </body>
 </html>
