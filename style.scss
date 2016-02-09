@@ -156,8 +156,8 @@ h3 {
     }
 }
 
-@include large {
-    .bottom {
+.bottom {
+    @include large {
         display: flex;
         
         div {
@@ -177,10 +177,24 @@ ul {
     list-style-type: square;
     margin: 0;
     
-    li > span {
+    .dates & > li {
+        $size: 8em;
+        $skip: 2em;
+        margin-left: $size - $skip;
+        
+        > :first-child {
+            display: inline-block;
+            font-weight: 300;
+            margin-left: - $size - $skip;
+            padding-right: $skip;
+            text-align: right;
+            width: $size;
+        }
+    }
+    
+    li > small {
         font-size: .85em;
         font-weight: 300;
-        margin-bottom: .5em;
     }
 }
 

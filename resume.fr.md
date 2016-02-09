@@ -103,14 +103,21 @@ Web
 
 </div>
 
+<div class="dates" markdown="1">
+
 Formation
 ---------
 
--   **École d'Ingénieurs** en _Informatique_ avec spécialité _Robotique_ ─ [ENSEIRB-MATMECA][] ─ 2013 à 2016
--   **Classe Préparatoire aux Grandes Écoles** ─ Prépa des INP ─ 2011 à 2013
--   Double diplôme **AbiBac** franco-allemand ─ 2011  
-    <span> _Baccalauréat_ scientifique mention bien et _allgemeine Hochschulreife_ allemand  
-    Stage en entreprise à Francfort (<span class="caps">Allemagne</span>) </span>
+-   <span>2013 à 2016</span>
+    **École d'Ingénieurs** en _Informatique_ avec spécialité _Robotique_ ─ [ENSEIRB-MATMECA][]
+-   <span>2011 à 2013</span>
+    **Classe Préparatoire aux Grandes Écoles** ─ Prépa des INP
+-   <span>2011</span>
+    Double diplôme **AbiBac** franco-allemand  
+    <small> _Baccalauréat_ scientifique mention bien et _allgemeine Hochschulreife_ allemand  
+    Stage en entreprise à Francfort (<span class="caps">Allemagne</span>) </small>
+
+</div>
 
 <div class="bottom">
 
@@ -146,18 +153,18 @@ Langues
 -------
 
 -   Français  
-    <span> Langue maternelle </span>
+    <small> Langue maternelle </small>
 -   Anglais  
-    <span> IELTS 8.5  
-    Anglais technique </span>
+    <small> IELTS 8.5  
+    Anglais technique </small>
 -   Allemand  
-    <span> Certification C1 </span>
+    <small> Certification C1 </small>
 -   Italien  
-    <span> 5 ans </span>
+    <small> 5 ans </small>
 -   Russe  
-    <span> 1 an </span>
+    <small> 1 an </small>
 -   Portugais  
-    <span> 1 an </span>
+    <small> 1 an </small>
 
 </div>
 

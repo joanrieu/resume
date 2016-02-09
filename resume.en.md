@@ -104,18 +104,23 @@ Web
 
 </div>
 
+<div class="dates" markdown="1">
+
 Education
 ---------
 
--   Finishing a **Master's Degree** in **Software Engineering** and **Robotics** at [ENSEIRB-MATMECA][] ─ 
-2013 to 2016  
-    **Bachelor's degree** in Engineering Sciences specialised in Computer Science ─ 2014  
-    <span> This school is a _Grande École_, a prestigious selective higher-education institution, in the [Bordeaux Institute of Technology][] </span>
--   Studies in **Mathematics and Natural Sciences** ─ 2011 to 2013  
-    <span> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </span>
--   French & German high school **double diploma** ─ 2011  
-    <span> French _baccalauréat_ with honors and German _allgemeine Hochschulreife_  
-    Internship in Frankfurt (<span class="caps">Germany</span>) </span>
+-   <span>2013 à 2016</span>
+    Finishing a **Master's Degree** in **Software Engineering** and **Robotics** ─ [ENSEIRB-MATMECA][]
+    <small> This school is a _Grande École_, a prestigious selective higher-education institution </small>
+-   <span>2011 à 2013</span>
+    Studies in **Mathematics and Natural Sciences** ─ Prépa des INP  
+    <small> Two-year intensive classes to prepare for the entrance exam of a _Grande École_ </small>
+-   <span>2011</span>
+    French & German high school **double diploma**  
+    <small> French _baccalauréat_ with honors and German _allgemeine Hochschulreife_  
+    Internship in Frankfurt (<span class="caps">Germany</span>) </small>
+
+</div>
 
 <div class="bottom">
 
@@ -151,18 +156,18 @@ Languages
 ---------
 
 -   French  
-    <span> Mother tongue </span>
+    <small> Mother tongue </small>
 -   English  
-    <span> IELTS 8.5  
-    Technical English</span>
+    <small> IELTS 8.5  
+    Technical English</small>
 -   German  
-    <span> European C1 certificate</span>
+    <small> European C1 certificate</small>
 -   Italian  
-    <span> Intermediate </span> 
+    <small> Intermediate </small> 
 -   Russian  
-    <span> Lower intermediate </span> 
+    <small> Lower intermediate </small> 
 -   Portuguese  
-    <span> Lower intermediate </span> 
+    <small> Lower intermediate </small> 
 
 </div>
 
