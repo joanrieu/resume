@@ -5,7 +5,7 @@
 Joan Rieu
 =========
 
-Élève-Ingénieur en Informatique
+Ingénieur en Informatique
 
 </div>
 
