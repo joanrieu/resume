@@ -224,5 +224,6 @@ Langues
 [Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
 [ENSEIRB-MATMECA]:                      //enseirb-matmeca.bordeaux-inp.fr
 [IDSC Group]:                           //www.idsc-group.com
+[Inria]:                                //www.inria.fr/
 [Juliand Digital]:                      //juliand.co.uk
 [Rhoban / LaBRI]:                       //rhoban.com/fr/people-contact/
