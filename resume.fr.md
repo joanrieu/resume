@@ -35,11 +35,11 @@ Expérience technique
 #### Système ####
 
 - C++
+- Java
+- EMF
 - C
 - x86 Asm
 - LLVM
-- Java
-- ANTLR
 
 </div>
 
@@ -48,8 +48,8 @@ Expérience technique
 #### Mobile ####
 
 - Android
+- RxAndroid
 - Phonegap
-- Couchbase Lite
 
 </div>
 
@@ -69,6 +69,18 @@ Expérience technique
 - PHP
 
 </div>
+
+</div>
+
+<div markdown="1">
+
+### Assistance à la personne ###
+
+- Architecture d'un système d'alerte
+- Conception de composants OSGi et Android
+- Création d'un langage avec visualisations
+- Stage de 6 mois à l'[Inria][] (Institut National de Recherche en Informatique et Automatique)  
+  ─ Bordeaux, 2016
 
 </div>
 
@@ -105,6 +117,18 @@ Expérience technique
 - Intégration d'une fonction de scan de QR Code
 - Stage de 2 mois à l'[ANSSI][] (Agence Nationale de la Sécurité des Systèmes d'Information)  
   ─ Paris, 2014
+
+</div>
+
+<div markdown="1">
+
+### Site web commercial ###
+
+-   Comparaison de différents frameworks et CMS
+-   Travail avec des designers et des commerciaux
+-   Écriture du code et intégration de cartographies
+-   Travail en freelance avec [AEI][] (Junior-Entreprise)  
+    ─ Bordeaux, 2014
 
 </div>
 
