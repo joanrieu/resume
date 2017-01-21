@@ -5,7 +5,7 @@
 Joan Rieu
 =========
 
-Software Engineering Student
+Software Engineer
 
 </div>
 
@@ -74,6 +74,18 @@ Technical experience
 
 <div markdown="1">
 
+### Digital care system for the elderly ###
+
+- Architecture of an alert system
+- OSGi and Android component conception
+- Language and visualization development
+- 6-month internship at [Inria][] (research institute)  
+  ─ Bordeaux, 2016
+
+</div>
+
+<div markdown="1">
+
 ### Holonomic robot with LiDAR ###
 
 - MCU programming for odometry and PID control
@@ -105,6 +117,18 @@ Technical experience
 - Integration of QR Code scan functionality
 - 2-month internship at [ANSSI][] (French National IT Security Agency)  
   ─ Paris, 2014
+
+</div>
+
+<div markdown="1">
+
+### Commercial website ###
+
+-   Analysis of multiple frameworks and CMS
+-   Work with designers and salespersons
+-   Code and integration of map libraries
+-   Freelance work with [AEI][] (Junior Association)  
+    ─ Bordeaux, 2014
 
 </div>
 
@@ -202,5 +226,6 @@ Languages
 [Automatic Alarm]:                      //play.google.com/store/apps/details?id=net.fififox.dailycalendaralarm
 [ENSEIRB-MATMECA]:                      //enseirb-matmeca.bordeaux-inp.fr/en
 [IDSC Group]:                           //www.idsc-group.com
+[Inria]:                                //www.inria.fr/en/
 [Juliand Digital]:                      //juliand.co.uk
 [Rhoban / LaBRI]:                       //rhoban.com/people-contact/
