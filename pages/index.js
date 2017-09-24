@@ -19,15 +19,13 @@ const FluidTypography = () => (
     `}</style>
 )
 
-const Section = () => (
+const Hero = () => (
     <section>
         <style jsx>{`
             section {
                 padding: 5vw;
                 max-width: 30rem;
                 margin: auto;
-                color: white;
-                text-shadow: 0 0 .2em #555;
             }
             @media (min-width: 40rem) {
                 section::before {
@@ -43,6 +41,9 @@ const Section = () => (
             }
             h1 {
                 font-family: "Saira", sans-serif;
+                font-weight: 200;
+            }
+            p {
             }
             blockquote {
                 font-style: italic;
@@ -56,17 +57,40 @@ const Section = () => (
     </section>
 )
 
+const About = () => (
+    <div className="about">
+        <style jsx>{`
+            .about {
+                margin: 3rem auto;
+                font-size: .8em;
+                max-width: 30em;
+                text-align: left;
+                background: rgba(0, 0, 0, .6);
+                border-radius: 2pt;
+            }
+            blockquote {
+                padding: 1rem 0;
+            }
+            h3 {
+                text-align: center;
+                margin: 0;
+            }
+        `}</style>
+        <blockquote>
+            <h3>About me</h3>
+            As a software engineer, I have a deep interest in software architecture, programming languages and algorithms.
+            I am also passionate about sharing knowledge and learning about new technologies and practices.
+        </blockquote>
+    </div>
+)
+
 const Links = () => (
     <div className="links pure-menu pure-menu-horizontal pure-menu-scrollable">
         <style jsx>{`
             .links {
                 font-size: .8em;
                 text-align: center;
-                position: absolute;
-                bottom: 1rem;
-            }
-            .pure-menu-item {
-                background: rgba(255, 255, 255, .05);
+                margin: 1rem 0;
             }
             .pure-menu-item:first-child {
                 font-weight: bold;
@@ -102,25 +126,27 @@ export default () => (
                 href="https://unpkg.com/purecss@1.0.0/build/menus-min.css"
                 crossorigin="anonymous" />
             <link rel="stylesheet"
-                href="https://fonts.googleapis.com/css?family=Saira|Saira+Semi+Condensed" />
+                href="https://fonts.googleapis.com/css?family=Saira:200|Saira+Semi+Condensed:400" />
             <FluidTypography />
+            <style>{`
+                html,
+                body {
+                    min-height: 100%;
+                }
+                body {
+                    /* Photo by Azhar J on Unsplash */
+                    background: url(/static/azhar-j-177284.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    font-family: "Saira Semi Condensed", sans-serif;
+                    text-align: center;
+                    color: white;
+                }
+            `}</style>
         </Head>
-        <style>{`
-            html,
-            body {
-                height: 100%;
-            }
-            body {
-                /* Photo by Azhar J on Unsplash */
-                background: url(/static/azhar-j-177284.jpg);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                font-family: "Saira Semi Condensed", sans-serif;
-                text-align: center;
-            }
-        `}</style>
-        <Section />
+        <Hero />
+        <About />
         <Links />
     </div>
 )
