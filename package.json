@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Joan Rieu's resume",
+  "private": "true",
+  "dependencies": {
+    "next": "^3.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev --host $IP --port $PORT",
+    "build": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanrieu/resume.git"
+  },
+  "author": "Joan Rieu <joan@joanrieu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joanrieu/resume/issues"
+  },
+  "homepage": "https://github.com/joanrieu/resume#readme"
+}
