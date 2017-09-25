@@ -118,6 +118,7 @@ export default () => (
     <div>
         <Head>
             <title>Joan Rieu</title>
+            <link rel="icon" href="/static/favicon.png" />
             <meta name="viewport"
                 content="width=device-width,initial-scale=1" />
             <link rel="stylesheet"
@@ -137,7 +138,8 @@ export default () => (
                 body {
                     /* Photo by Azhar J on Unsplash */
                     /* https://unsplash.com/photos/-27Pzw5c_kU */
-                    /* mogrify -scale 50% -interlace Plane {,static/}azhar-j-177284.jpg */
+                    /* convert -scale 50% -interlace Plane {,static/}azhar-j-177284.jpg */
+                    /* convert -scale 64x64! azhar-j-177284.jpg static/favicon.png */
                     background-image: url(/static/azhar-j-177284.jpg);
                     background-size: cover;
                     background-position: center;
