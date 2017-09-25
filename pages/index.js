@@ -8,12 +8,12 @@ const FluidTypography = () => (
         }
         @media screen and (min-width: 320px) {
           html {
-            font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+            font-size: calc(16px + (20 - 16) * ((100vw - 320px) / 680));
           }
         }
         @media screen and (min-width: 1000px) {
           html {
-            font-size: 22px;
+            font-size: 20px;
           }
         }
     `}</style>
@@ -23,37 +23,26 @@ const Hero = () => (
     <section>
         <style jsx>{`
             section {
-                padding: 5vw;
+                padding: .5em;
                 max-width: 30rem;
                 margin: auto;
-            }
-            @media (min-width: 40rem) {
-                section::before {
-                    content: "";
-                    float: left;
-                    height: 20rem;
-                    border-left: .2rem solid white;
-                    transform: rotateZ(-5deg);
-                }
-            }
-            .hero {
                 font-size: 1.5em;
             }
+            h1,
+            p {
+                font-family: Saira, sans-serif;
+            }
             h1 {
-                font-family: "Saira", sans-serif;
-                font-weight: 200;
+                font-size: 3em;
+                font-weight: normal;
+                white-space: nowrap;
             }
             p {
-            }
-            blockquote {
-                font-style: italic;
+                margin-top: -3em;
             }
         `}</style>
-        <div className="hero">
-            <h1>Joan Rieu</h1>
-            <p>Software engineering<br/>& systems architecture</p>
-        </div>
-        <blockquote>I build complex software systems.</blockquote>
+        <h1>Joan Rieu</h1>
+        <p>Software engineering</p>
     </section>
 )
 
@@ -61,24 +50,33 @@ const About = () => (
     <div className="about">
         <style jsx>{`
             .about {
-                margin: 3rem auto;
-                font-size: .8em;
+                margin: auto;
                 max-width: 30em;
                 text-align: left;
-                background: rgba(0, 0, 0, .6);
-                border-radius: 2pt;
+                text-shadow: 0 0 .5em rgb(53, 46, 38);
             }
             blockquote {
                 padding: 1rem 0;
+                font-weight: normal;
             }
-            h3 {
-                text-align: center;
-                margin: 0;
+            em {
+                display: inline-block;
+                white-space: nowrap;
+                font-size: 1.2em;
+                line-height: 2;
+            }
+            em::after {
+                content: "";
+                display: block;
+                height: .5em;
+                background: rgb(142, 100, 68);
+                border-radius: 2pt;
+                margin-top: -1em;
             }
         `}</style>
         <blockquote>
-            <h3>About me</h3>
-            As a software engineer, I have a deep interest in software architecture, programming languages and algorithms.
+            <em>I build complex software systems.</em><br/>
+            As a software engineer, I have a deep interest in software architecture, programming languages and algorithms.<br/>
             I am also passionate about sharing knowledge and learning about new technologies and practices.
         </blockquote>
     </div>
@@ -90,10 +88,12 @@ const Links = () => (
             .links {
                 font-size: .8em;
                 text-align: center;
-                margin: 1rem 0;
             }
-            .pure-menu-item:first-child {
-                font-weight: bold;
+            .pure-menu-item:first-child .pure-menu-link {
+                color: white;
+            }
+            .pure-menu-link:hover {
+                background-color: rgba(255, 255, 255, .1);
             }
         `}</style>
         <ul className="pure-menu-list">
@@ -126,7 +126,7 @@ export default () => (
                 href="https://unpkg.com/purecss@1.0.0/build/menus-min.css"
                 crossorigin="anonymous" />
             <link rel="stylesheet"
-                href="https://fonts.googleapis.com/css?family=Saira:200|Saira+Semi+Condensed:400" />
+                href="https://fonts.googleapis.com/css?family=Saira:200|Saira+Semi+Condensed:300" />
             <FluidTypography />
             <style>{`
                 html,
@@ -134,19 +134,24 @@ export default () => (
                     min-height: 100%;
                 }
                 body {
-                    /* Photo by Azhar J on Unsplash */
-                    background: url(/static/azhar-j-177284.jpg);
+                    background-image: url(/static/azhar-j-177284-sd.jpg);
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
-                    font-family: "Saira Semi Condensed", sans-serif;
+                    font-family: Saira Semi Condensed, sans-serif;
                     text-align: center;
                     color: white;
                 }
+                @media (min-width: 30em) and (min-height: 50em) {
+                    body {
+                        /* Photo by Azhar J on Unsplash */
+                        background-image: url(/static/azhar-j-177284.jpg);
+                    }
+                }
             `}</style>
         </Head>
+        <Links />
         <Hero />
         <About />
-        <Links />
     </div>
 )
