@@ -1,10 +1,20 @@
 # How to install
 
-## Dev
+ 1. Install the environment
 
-    npm run dev
+        npm install
 
-## Prod
+ 2. Download the background image from Unsplash (see `pages/index.js`)
+
+# How to deploy
+
+## Development
+
+ 1. Run the live development server
+
+        npm run dev
+
+## Production
 
  1. Export the website
 
