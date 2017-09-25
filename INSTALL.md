@@ -6,6 +6,8 @@
 
  2. Download the background image from Unsplash (see `pages/index.js`)
 
+ 3. Save the PDF resume under `static/Joan Rieu - Resume.pdf`.
+
 # How to deploy
 
 ## Development
