@@ -134,19 +134,16 @@ export default () => (
                     min-height: 100%;
                 }
                 body {
-                    background-image: url(/static/azhar-j-177284-sd.jpg);
+                    /* Photo by Azhar J on Unsplash */
+                    /* https://unsplash.com/photos/-27Pzw5c_kU */
+                    /* mogrify -scale 50% -interlace Plane {,static/}azhar-j-177284.jpg */
+                    background-image: url(/static/azhar-j-177284.jpg);
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
                     font-family: Saira Semi Condensed, sans-serif;
                     text-align: center;
                     color: white;
-                }
-                @media (min-width: 30em) and (min-height: 50em) {
-                    body {
-                        /* Photo by Azhar J on Unsplash */
-                        background-image: url(/static/azhar-j-177284.jpg);
-                    }
                 }
             `}</style>
         </Head>
