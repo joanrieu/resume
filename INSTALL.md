@@ -25,13 +25,13 @@
  1. Export the website
 
         npm run build
-        cp .htaccess out/
 
  2. Remove useless JavaScript
 
-        rimraf out/_next
-        tidy out/index.hml
-        # remove JS preload & scripts
+    - remove the `out/_next` folder
+    - tidy `out/index.hml`
+        - remove `preload` tags in `head`
+        - remove `script` tags at the end of `body`
 
  3. Add [Google Analytics](https://analytics.google.com/analytics/web/)
 

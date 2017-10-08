@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "next dev --host $IP --port $PORT",
     "convert-images": "stat \"$IMG\" >/dev/null && convert -scale 2000 -interlace Plane \"$IMG\" static/background.jpg && convert -scale 64x64! -background none -blur 0x8 -vignette 1x1 $IMG static/favicon.png",
-    "build": "next build && next export"
+    "build": "next build && next export && cp .htaccess out/"
   },
   "repository": {
     "type": "git",
