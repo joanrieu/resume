@@ -54,6 +54,7 @@ const About = () => (
                 margin: auto;
                 max-width: 30em;
                 text-align: left;
+                background: white;
             }
             blockquote {
                 padding: 1rem 0;
@@ -87,8 +88,7 @@ const Links = () => (
         <style jsx>{`
             .links {
                 text-align: center;
-            }
-            .pure-menu-item:first-child .pure-menu-link {
+                background: white;
             }
         `}</style>
         <ul className="pure-menu-list">
@@ -131,6 +131,12 @@ export default () => (
                     min-height: 100%;
                 }
                 body {
+                    background-image:
+                        linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)),
+                        url(/static/background.jpg);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
                     font-family: Saira Semi Condensed, sans-serif;
                     color: #555;
                 }
