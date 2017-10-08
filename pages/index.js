@@ -27,6 +27,7 @@ const Hero = () => (
                 max-width: 30rem;
                 margin: auto;
                 font-size: 1.5em;
+                text-align: center;
             }
             h1,
             p {
@@ -53,7 +54,6 @@ const About = () => (
                 margin: auto;
                 max-width: 30em;
                 text-align: left;
-                text-shadow: 0 0 .5em rgb(53, 46, 38);
             }
             blockquote {
                 padding: 1rem 0;
@@ -69,7 +69,7 @@ const About = () => (
                 content: "";
                 display: block;
                 height: .5em;
-                background: rgb(142, 100, 68);
+                background: #ddd;
                 border-radius: 2pt;
                 margin-top: -1em;
             }
@@ -86,14 +86,9 @@ const Links = () => (
     <div className="links pure-menu pure-menu-horizontal pure-menu-scrollable">
         <style jsx>{`
             .links {
-                font-size: .8em;
                 text-align: center;
             }
             .pure-menu-item:first-child .pure-menu-link {
-                color: white;
-            }
-            .pure-menu-link:hover {
-                background-color: rgba(255, 255, 255, .1);
             }
         `}</style>
         <ul className="pure-menu-list">
@@ -136,17 +131,8 @@ export default () => (
                     min-height: 100%;
                 }
                 body {
-                    /* Photo by Azhar J on Unsplash */
-                    /* https://unsplash.com/photos/-27Pzw5c_kU */
-                    /* convert -scale 50% -interlace Plane {,static/}azhar-j-177284.jpg */
-                    /* convert -scale 64x64! azhar-j-177284.jpg static/favicon.png */
-                    background-image: url(/static/azhar-j-177284.jpg);
-                    background-size: cover;
-                    background-position: center;
-                    background-repeat: no-repeat;
                     font-family: Saira Semi Condensed, sans-serif;
-                    text-align: center;
-                    color: white;
+                    color: #555;
                 }
             `}</style>
         </Head>
