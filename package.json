@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "front-matter": "^3.0.2",
+    "next": "^8.1.0",
+    "node-fetch": "^2.5.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "showdown": "^1.9.0"
+  },
+  "scripts": {
+    "dev": "next"
+  },
+  "author": "Joan Rieu <joan@joanrieu.com>",
+  "license": "ISC",
+  "browser": {
+    "fs": false,
+    "node-fetch": false
+  }
+}
