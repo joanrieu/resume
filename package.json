@@ -1,7 +1,9 @@
 {
   "name": "joanrieu.com",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel serve src/index.pug"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joanrieu/joanrieu.com.git"
@@ -10,5 +12,8 @@
   "private": true,
   "dependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "pug": "^3.0.0"
   }
 }
