@@ -1,0 +1,14 @@
+{
+  "name": "joanrieu.com",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joanrieu/joanrieu.com.git"
+  },
+  "author": "Joan Rieu <joan@joanrieu.com>",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
