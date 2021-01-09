@@ -1,0 +1,47 @@
+$blue-nights-grey: #363B48
+$cloud-dancer-grey: #F0EEE9
+$fruit-dove-red: #CF5C78
+$illuminating-yellow: #F5DF4D
+$ultimate-gray: #939597
+
+:root
+  font-family: "Courier Prime", monospace
+  line-height: 1
+  color: $blue-nights-grey
+
+*
+  font: inherit
+  text-decoration: inherit
+  color: inherit
+
+html, body, section
+  height: 100%
+
+.profile
+  display: grid
+  place-items: end stretch
+  background-image: linear-gradient(45deg, $illuminating-yellow, $fruit-dove-red)
+
+  .card
+    margin: 2em
+    padding: 1em 2em
+    background-color: $cloud-dancer-grey
+    font-size: 20px
+    max-width: 25em
+
+    @media (min-width: 666px)
+      margin: 3em
+      padding: 1.5em 3em
+      font-size: 3vw
+
+    @media (min-width: 1000px)
+      font-size: 30px
+
+    .name
+      margin: 0.5em 0
+      font-size: 2em
+      font-weight: bold
+
+    .nav
+      li
+        margin: 0.5em 0

@@ -3,5 +3,16 @@ html(lang="en")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title #{resume.basics.name}
+    title Joan Rieu
+    link(rel="stylesheet", href="../node_modules/minireset.css/minireset.min.css")
+    link(rel="stylesheet", href="../node_modules/@fontsource/courier-prime/400.css")
+    link(rel="stylesheet", href="../node_modules/@fontsource/courier-prime/700.css")
+    link(rel="stylesheet", href="style.sass")
   body
+    section.profile
+      .card
+        h1.name Joan Rieu
+        ul.nav
+          for link in links
+            li
+              a(href=link[1])= link[0]
