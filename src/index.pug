@@ -9,10 +9,9 @@ html(lang="en")
     link(rel="stylesheet", href="../node_modules/@fontsource/courier-prime/700.css")
     link(rel="stylesheet", href="style.sass")
   body
-    section.profile
-      .card
-        h1.name Joan Rieu
-        ul.nav
-          for link in links
-            li
-              a(href=link[1])= link[0]
+    .profile
+      h1.name Joan Rieu
+      ul.nav
+        for link in links
+          li
+            a(href=link[1])= link[0]

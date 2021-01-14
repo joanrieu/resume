@@ -3,6 +3,7 @@ $cloud-dancer-grey: #F0EEE9
 $fruit-dove-red: #CF5C78
 $illuminating-yellow: #F5DF4D
 $ultimate-gray: #939597
+$peacock-blue: #00A0B0
 
 :root
   font-family: "Courier Prime", monospace
@@ -14,15 +15,18 @@ $ultimate-gray: #939597
   text-decoration: inherit
   color: inherit
 
-html, body, section
+html, body
   height: 100%
 
-.profile
+body
   display: grid
-  place-items: end stretch
-  background-image: linear-gradient(45deg, $illuminating-yellow, $fruit-dove-red)
 
-  .card
+  // gradient from $illuminating-yellow to $fruit-dove-red to $peacock-blue
+  // https://mycolor.space/gradient3?ori=to+right+top&hex=%23F5DF4D&hex2=%23CF5C78&hex3=%2300A0B0&submit=submit
+  background-image: linear-gradient(to right top, #f5df4d, #ffc14a, #ffa451, #fd895d, #ee726a, #e56a85, #d2699c, #b56dae, #8b7fc8, #548fd0, #0a9ac6, #00a0b0)
+
+  .profile
+    place-self: end stretch
     margin: 2em
     padding: 1em 2em
     background-color: $cloud-dancer-grey
