@@ -2,8 +2,9 @@
 html(lang="en")
   head
     meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Joan Rieu
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="theme-color", content="#CF5C78")
     link(rel="stylesheet", href="../node_modules/minireset.css/minireset.min.css")
     link(rel="stylesheet", href="../node_modules/@fontsource/courier-prime/400.css")
     link(rel="stylesheet", href="../node_modules/@fontsource/courier-prime/700.css")
@@ -14,3 +15,6 @@ html(lang="en")
       nav
         for link in links
           a(href=link[1])= link[0]
+    .animation(aria-hidden)
+      for letter in "joanrieu"
+        div= letter

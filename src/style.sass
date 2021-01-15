@@ -12,6 +12,9 @@ $peacock-blue: #00A0B0
   font-family: "Courier Prime", monospace
   color: $blue-nights-grey
 
+  @media (orientation: portrait)
+    font-size: 5vmin
+
 *
   font: inherit
   text-decoration: inherit
@@ -23,24 +26,65 @@ html, body
 body
   display: flex
   flex-direction: column
-  padding: 3em
+  padding: 3rem
 
   // gradient from $illuminating-yellow to $fruit-dove-red to $peacock-blue
   // https://mycolor.space/gradient3?ori=to+right+top&hex=%23F5DF4D&hex2=%23CF5C78&hex3=%2300A0B0&submit=submit
   background-image: linear-gradient(to right top, #f5df4d, #ffc14a, #ffa451, #fd895d, #ee726a, #e56a85, #d2699c, #b56dae, #8b7fc8, #548fd0, #0a9ac6, #00a0b0)
 
   .profile
-    max-width: 20em
+    z-index: 1
+    max-width: 20rem
     margin-top: auto
-    padding: 1.5em 3em
+    padding: 1.5rem 0
     background-color: $cloud-dancer-grey
 
     h1
-      margin: 0.5em 0
-      font-size: 2em
+      margin: 1rem 3rem
+      font-size: 2rem
       font-weight: bold
       line-height: 1
 
     nav a
       display: block
+      padding: 0 3rem
       line-height: 1.5
+
+      @media (orientation: portrait)
+        line-height: 3
+
+  .animation
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    overflow: hidden
+    user-select: none
+    opacity: .5
+
+    @media (prefers-reduced-motion)
+      display: none
+
+    div
+      position: absolute
+      font-size: 4rem
+      font-weight: bold
+      color: $cloud-dancer-grey
+
+      @for $i from 1 to 10
+        &:nth-child(#{$i})
+          animation: fall (10s * (1 + random())) linear infinite
+          animation-fill-mode: both
+          transform: translateX(10vw + random() * 80vw) rotateY((random() - .5) * 30deg) rotateZ((random() - .5) * 30deg)
+
+
+@keyframes fall
+  from
+    opacity: 1
+    top: -20vh
+    filter: blur(.2vh)
+  to
+    opacity: 1
+    top: 120vh
+    filter: blur(1vh)
