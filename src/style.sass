@@ -86,12 +86,10 @@ body
           left: -0.5ch
 
           > div
-            transform: translateX(nth($prng, $i * 10 + 2) * 100vw) rotateY((nth($prng, $i * 10 + 3) - .5) * 30deg) rotateZ((nth($prng, $i * 10 + 4) - .5) * 30deg)
+            transform: translateX(nth($prng, $i * 10 + 2) * 100vw) rotateY((nth($prng, $i * 10 + 3) - .5) * 30deg) rotateZ((nth($prng, $i * 10 + 4) - .5) * 30deg) scale(nth($prng, $i * 10 + 5) * 0.4 + .6)
 
 @keyframes fall
   from
-    opacity: 1
     transform: translateY(-20vh)
   to
-    opacity: 1
     transform: translateY(120vh)
