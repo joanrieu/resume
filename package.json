@@ -2,7 +2,8 @@
   "name": "joanrieu.com",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel serve src/index.pug"
+    "start": "parcel serve src/index.pug",
+    "build": "rm -rf dist/ && parcel build src/index.pug"
   },
   "repository": {
     "type": "git",
