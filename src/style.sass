@@ -6,6 +6,8 @@ $ultimate-gray: #939597
 $peacock-blue: #00A0B0
 
 :root
+  min-height: 0vw // fluid font-size fix for Safari
+  font-size: 4vmin
   font-family: "Courier Prime", monospace
   line-height: 1
   color: $blue-nights-grey
@@ -19,27 +21,19 @@ html, body
   height: 100%
 
 body
-  display: grid
+  display: flex
+  flex-direction: column
+  padding: 3em
 
   // gradient from $illuminating-yellow to $fruit-dove-red to $peacock-blue
   // https://mycolor.space/gradient3?ori=to+right+top&hex=%23F5DF4D&hex2=%23CF5C78&hex3=%2300A0B0&submit=submit
   background-image: linear-gradient(to right top, #f5df4d, #ffc14a, #ffa451, #fd895d, #ee726a, #e56a85, #d2699c, #b56dae, #8b7fc8, #548fd0, #0a9ac6, #00a0b0)
 
   .profile
-    place-self: end stretch
-    margin: 2em
-    padding: 1em 2em
+    max-width: 20em
+    margin-top: auto
+    padding: 1.5em 3em
     background-color: $cloud-dancer-grey
-    font-size: 20px
-    max-width: 25em
-
-    @media (min-width: 666px)
-      margin: 3em
-      padding: 1.5em 3em
-      font-size: 3vw
-
-    @media (min-width: 1000px)
-      font-size: 30px
 
     .name
       margin: 0.5em 0
