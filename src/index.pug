@@ -10,8 +10,7 @@ html(lang="en")
     link(rel="stylesheet", href="style.sass")
   body
     .profile
-      h1.name Joan Rieu
-      ul.nav
+      h1 Joan Rieu
+      nav
         for link in links
-          li
-            a(href=link[1])= link[0]
+          a(href=link[1])= link[0]

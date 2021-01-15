@@ -1,3 +1,4 @@
+// https://connect.pantone.com/#/color-of-the-year
 $blue-nights-grey: #363B48
 $cloud-dancer-grey: #F0EEE9
 $fruit-dove-red: #CF5C78
@@ -9,7 +10,6 @@ $peacock-blue: #00A0B0
   min-height: 0vw // fluid font-size fix for Safari
   font-size: 4vmin
   font-family: "Courier Prime", monospace
-  line-height: 1
   color: $blue-nights-grey
 
 *
@@ -35,11 +35,12 @@ body
     padding: 1.5em 3em
     background-color: $cloud-dancer-grey
 
-    .name
+    h1
       margin: 0.5em 0
       font-size: 2em
       font-weight: bold
+      line-height: 1
 
-    .nav
-      li
-        margin: 0.5em 0
+    nav a
+      display: block
+      line-height: 1.5
